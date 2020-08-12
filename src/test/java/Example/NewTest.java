@@ -83,7 +83,7 @@ public class NewTest
 		 
 		 String Quantity ="QTY";
 		 String Description = "DESCRIPTION";
-		 double Price = 2.99;
+		 double Price = 29.99;
 		 
 		 String CartQuantity = driver.findElement(By.xpath("//*[@id='cart_contents_container']/div/div[1]/div[1]")).getText();
 		 String CartDescription = driver.findElement(By.xpath("//*[@id=\'cart_contents_container\']/div/div[1]/div[2]")).getText();
@@ -95,7 +95,7 @@ public class NewTest
 		 Assert.assertEquals(CartQuantity, Quantity);
 		 Assert.assertEquals(CartDescription, Description);
 		 Assert.assertEquals(CartPrice, Price, 0.01);
-		 // Test for github
+		 
     }
 	
     @Test (priority = 1)
@@ -103,6 +103,11 @@ public class NewTest
     public void SwagLabsRobot()
     
     {
+    	
+    	driver = new ChromeDriver();
+    	driver.get("https://www.saucedemo.com/");
+    	driver.manage().window().maximize();
+    	
     	
     	
     }
