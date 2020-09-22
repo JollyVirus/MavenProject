@@ -5,8 +5,8 @@
     <classes>
       <class name="Example.NewTest">
         <methods>
+          <include name="TabChanges"/>
           <include name="Set"/>
-          <include name="SwaglabsTest"/>
         </methods>
       </class> <!-- Example.NewTest -->
     </classes>

@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="3" passed="3" failed="0" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-06T03:07:05Z" name="Default suite" finished-at="2020-08-06T03:07:17Z" duration-ms="11734">
+  <suite started-at="2020-09-22T22:10:54Z" name="Default suite" finished-at="2020-09-22T22:11:16Z" duration-ms="21592">
     <groups>
     </groups>
-    <test started-at="2020-08-06T03:07:05Z" name="Default test" finished-at="2020-08-06T03:07:17Z" duration-ms="11734">
+    <test started-at="2020-09-22T22:10:54Z" name="Default test" finished-at="2020-09-22T22:11:16Z" duration-ms="21592">
       <class name="Example.NewTest">
-        <test-method is-config="true" signature="Set()[pri:0, instance:Example.NewTest@52af26ee]" started-at="2020-08-05T23:07:05Z" name="Set" finished-at="2020-08-05T23:07:05Z" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="Set()[pri:0, instance:Example.NewTest@6392827e]" started-at="2020-09-22T18:10:54Z" name="Set" finished-at="2020-09-22T18:10:54Z" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Set -->
-        <test-method signature="SwaglabsTest()[pri:0, instance:Example.NewTest@52af26ee]" started-at="2020-08-05T23:07:05Z" name="SwaglabsTest" finished-at="2020-08-05T23:07:17Z" duration-ms="11718" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SwaglabsTest -->
-        <test-method signature="SwagLabsRobot()[pri:0, instance:Example.NewTest@52af26ee]" started-at="2020-08-05T23:07:17Z" name="SwagLabsRobot" finished-at="2020-08-05T23:07:17Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SwagLabsRobot -->
-        <test-method signature="TabChanges()[pri:0, instance:Example.NewTest@52af26ee]" started-at="2020-08-05T23:07:17Z" name="TabChanges" finished-at="2020-08-05T23:07:17Z" duration-ms="0" status="PASS">
+        <test-method signature="TabChanges()[pri:0, instance:Example.NewTest@6392827e]" started-at="2020-09-22T18:10:54Z" name="TabChanges" finished-at="2020-09-22T18:11:16Z" duration-ms="21567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TabChanges -->
